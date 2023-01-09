@@ -28,11 +28,31 @@ partial class Form1
     /// </summary>
     private void InitializeComponent()
     {
-        this.components = new System.ComponentModel.Container();
-        this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-        this.ClientSize = new System.Drawing.Size(800, 450);
-        this.Text = "Form1";
+            this.btnCircle = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btnCircle
+            // 
+            this.btnCircle.Location = new System.Drawing.Point(86, 372);
+            this.btnCircle.Name = "btnCircle";
+            this.btnCircle.Size = new System.Drawing.Size(94, 29);
+            this.btnCircle.TabIndex = 0;
+            this.btnCircle.Text = "circle";
+            this.btnCircle.UseVisualStyleBackColor = true;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnCircle);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.ResumeLayout(false);
+
     }
 
     #endregion
+
+    private Button btnCircle;
 }
