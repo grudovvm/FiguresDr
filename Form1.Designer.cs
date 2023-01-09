@@ -34,9 +34,10 @@ partial class Form1
             // 
             // btnCircle
             // 
-            this.btnCircle.Location = new System.Drawing.Point(86, 372);
+            this.btnCircle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnCircle.Location = new System.Drawing.Point(60, 372);
             this.btnCircle.Name = "btnCircle";
-            this.btnCircle.Size = new System.Drawing.Size(94, 29);
+            this.btnCircle.Size = new System.Drawing.Size(103, 39);
             this.btnCircle.TabIndex = 0;
             this.btnCircle.Text = "circle";
             this.btnCircle.UseVisualStyleBackColor = true;
@@ -44,9 +45,10 @@ partial class Form1
             // 
             // btnRectangle
             // 
-            this.btnRectangle.Location = new System.Drawing.Point(354, 374);
+            this.btnRectangle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnRectangle.Location = new System.Drawing.Point(209, 372);
             this.btnRectangle.Name = "btnRectangle";
-            this.btnRectangle.Size = new System.Drawing.Size(94, 29);
+            this.btnRectangle.Size = new System.Drawing.Size(103, 39);
             this.btnRectangle.TabIndex = 1;
             this.btnRectangle.Text = "rectangle";
             this.btnRectangle.UseVisualStyleBackColor = true;
