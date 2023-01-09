@@ -40,6 +40,7 @@ partial class Form1
             this.btnCircle.TabIndex = 0;
             this.btnCircle.Text = "circle";
             this.btnCircle.UseVisualStyleBackColor = true;
+            this.btnCircle.Click += new System.EventHandler(this.btnCircle_Click);
             // 
             // btnRectangle
             // 
@@ -49,6 +50,7 @@ partial class Form1
             this.btnRectangle.TabIndex = 1;
             this.btnRectangle.Text = "rectangle";
             this.btnRectangle.UseVisualStyleBackColor = true;
+            this.btnRectangle.Click += new System.EventHandler(this.btnRectangle_Click);
             // 
             // Form1
             // 
